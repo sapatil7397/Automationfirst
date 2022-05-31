@@ -51,21 +51,21 @@ public class JqueryDeomsPage {
 		
 	}
 	
-	public void clickResizable()
-	{
-		resizable.click();
-	}
-	
-	public void clickSelectable()
-	{
-		selectable.click();
-	}
-	
-	public void clickSortable()
-	{
-		sortable.click();
-	}
-	
+//	public void clickResizable()
+//	{
+//		resizable.click();
+//	}
+//	
+//	public void clickSelectable()
+//	{
+//		selectable.click();
+//	}
+//	
+//	public void clickSortable()
+//	{
+//		sortable.click();
+//	}
+//	
 	
 	
 	
