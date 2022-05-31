@@ -61,10 +61,10 @@ public class JqueryDeomsPage {
 		selectable.click();
 	}
 	
-	public void clickSortable()
-	{
-		sortable.click();
-	}
+// 	public void clickSortable()
+// 	{
+// 		sortable.click();
+// 	}
 	
 	
 	
