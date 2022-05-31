@@ -10,20 +10,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class JqueryDeomsPage {
 
-  @FindBy (xpath = "(//a[text()='Draggable'])[1]")	
-  private WebElement draggable;
-	
-  @FindBy (xpath = "(//a[text()='Droppable'])[1]")	
-  private WebElement droppable;
-	
-  @FindBy (xpath = "(//a[text()='Resizable'])[1]")	
-  private WebElement resizable;
-	
-   @FindBy (xpath = "(//a[text()='Selectable'])[1]")	
-   private WebElement selectable;
-	
-   @FindBy (xpath = "((//a[text()='Sortable'])[1]")	
-   private WebElement sortable;
+//  @FindBy (xpath = "(//a[text()='Draggable'])[1]")	
+//  private WebElement draggable;
+//	
+//  @FindBy (xpath = "(//a[text()='Droppable'])[1]")	
+//  private WebElement droppable;
+//	
+//  @FindBy (xpath = "(//a[text()='Resizable'])[1]")	
+//  private WebElement resizable;
+//	
+//   @FindBy (xpath = "(//a[text()='Selectable'])[1]")	
+//   private WebElement selectable;
+//	
+//   @FindBy (xpath = "((//a[text()='Sortable'])[1]")	
+//   private WebElement sortable;
 	
 
   private  WebDriverWait wait ;
