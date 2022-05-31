@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="jQueryAppTestNg.VerifyDraggablepageofJquery">
+        <methods>
+          <include name="verifyDraggableTab"/>
+          <include name="openApplication"/>
+          <include name="closeBrowser"/>
+          <include name="clearObject"/>
+          <include name="launchBrowser"/>
+          <include name="createPOMObjects"/>
+        </methods>
+      </class> <!-- jQueryAppTestNg.VerifyDraggablepageofJquery -->
+      <class name="jQueryAppTestNg.VerifyDemosHeadersOfJQuery">
+        <methods>
+          <include name="creatPomObjects"/>
+          <include name="VerifyDemosTab"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchApplication"/>
+          <include name="capturescreenshot"/>
+          <include name="closeBrowesr"/>
+          <include name="clearObjects"/>
+        </methods>
+      </class> <!-- jQueryAppTestNg.VerifyDemosHeadersOfJQuery -->
+      <class name="jQueryAppTestNg.VerifyDroppablePageofJQuery">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="openApplication"/>
+          <include name="closeBrowser"/>
+          <include name="createPOMObjects"/>
+          <include name="verifyDroppableTab"/>
+          <include name="clearobject"/>
+        </methods>
+      </class> <!-- jQueryAppTestNg.VerifyDroppablePageofJQuery -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="4" parallel="classes" name="EdgeTest(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="jQueryAppTestNg.VerifyDemosHeadersOfJQuery">
+        <methods>
+          <include name="creatPomObjects"/>
+          <include name="VerifyDemosTab"/>
+          <include name="LaunchBrowser"/>
+          <include name="LaunchApplication"/>
+          <include name="capturescreenshot"/>
+          <include name="closeBrowesr"/>
+          <include name="clearObjects"/>
+        </methods>
+      </class> <!-- jQueryAppTestNg.VerifyDemosHeadersOfJQuery -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
