@@ -74,15 +74,15 @@ public class JqueryHeaders {
 		support.click();
 	}
 	
-	public void clickBlog()
-	{
-		blog.click();
-	}
+// 	public void clickBlog()
+// 	{
+// 		blog.click();
+// 	}
 	
-	public void clickAbout()
-	{
-		about.click();
-	}
+// 	public void clickAbout()
+// 	{
+// 		about.click();
+// 	}
 	
 	
 	
