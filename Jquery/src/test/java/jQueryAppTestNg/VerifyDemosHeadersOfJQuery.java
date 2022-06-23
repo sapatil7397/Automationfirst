@@ -82,19 +82,19 @@ public class VerifyDemosHeadersOfJQuery {
 		}
 		
 	}
-	@AfterClass	
-	public void clearObjects() throws InterruptedException
-	{
-		jqueryHeaders= null;
-	}
-		@AfterTest
-		public void closeBrowesr()
-		{
-			driver.close();
-			driver = null;
-			System.gc();
+// 	@AfterClass	
+// 	public void clearObjects() throws InterruptedException
+// 	{
+// 		jqueryHeaders= null;
+// 	}
+// 		@AfterTest
+// 		public void closeBrowesr()
+// 		{
+// 			driver.close();
+// 			driver = null;
+// 			System.gc();
 			
-		}
+// 		}
 	
 	
 		
